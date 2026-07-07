@@ -78,4 +78,4 @@ fi
 echo "Запускаю агента... (для остановки нажми Ctrl+C)"
 echo "Теперь напиши своему боту в Telegram — он ответит."
 cd "$PLUGIN_DIR"
-exec claude --dangerously-load-development-channels server:dashi-channel
+exec claude --permission-mode bypassPermissions --dangerously-load-development-channels server:dashi-channel
