@@ -18,8 +18,11 @@
     ],
     "deny": [
       "Bash(rm -rf /)",
+      "Bash(rm -rf ~)",
       "Bash(curl * | bash)",
-      "Bash(sudo *)"
+      "Bash(wget * | bash)",
+      "Bash(sudo *)",
+      "Bash(git push --force*)"
     ],
     "additionalDirectories": [
       "."
