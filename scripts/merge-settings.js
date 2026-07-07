@@ -36,6 +36,9 @@ P.allow = union(P.allow, S.allow);
 P.deny = union(P.deny, S.deny);
 // Доступ к файлам репозитория — абсолютным путём (вместо относительного ".").
 P.additionalDirectories = union(P.additionalDirectories, repoRoot ? [repoRoot] : []);
+// Режим по умолчанию (acceptEdits) — авто-подтверждение правок файлов; работает и под root
+// (в отличие от bypassPermissions, который Claude Code запрещает под root).
+if (S.permissions && S.permissions.defaultMode) P.defaultMode = S.permissions.defaultMode;
 
 fs.mkdirSync(path.dirname(dstPath), { recursive: true });
 fs.writeFileSync(dstPath, JSON.stringify(dst, null, 2) + '\n');

@@ -1,5 +1,6 @@
 {
   "permissions": {
+    "defaultMode": "acceptEdits",
     "allow": [
       "Read",
       "Read(./**)",
@@ -14,7 +15,17 @@
       "mcp__dashi-channel__download_attachment",
       "mcp__dashi-channel__status",
       "WebFetch",
-      "WebSearch"
+      "WebSearch",
+      "Bash(git *)",
+      "Bash(bun *)",
+      "Bash(npm *)",
+      "Bash(node *)",
+      "Bash(python3 *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(grep *)",
+      "Bash(find *)",
+      "Bash(mkdir *)"
     ],
     "deny": [
       "Bash(rm -rf /)",
