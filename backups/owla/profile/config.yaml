@@ -1,0 +1,133 @@
+model:
+  default: openai/gpt-5.4-mini
+  provider: openrouter
+  base_url: https://openrouter.ai/api/v1
+  api_mode: chat_completions
+agent:
+  max_turns: 150
+web:
+  backend: ddgs
+browser:
+  cloud_provider: local
+display:
+  tool_progress: all
+computer_use:
+  backend: cua
+_config_version: 39
+session_reset:
+  mode: none
+image_gen:
+  provider: openrouter
+  model: openai/gpt-5.4-image-2
+platform_toolsets:
+  cli:
+    - browser
+    - clarify
+    - code_execution
+    - computer_use
+    - cronjob
+    - delegation
+    - file
+    - image_gen
+    - memory
+    - session_search
+    - skills
+    - terminal
+    - todo
+    - tts
+    - vision
+    - web
+  telegram:
+    - browser
+    - clarify
+    - code_execution
+    - computer_use
+    - cronjob
+    - delegation
+    - file
+    - image_gen
+    - memory
+    - session_search
+    - skills
+    - terminal
+    - todo
+    - tts
+    - vision
+    - web
+known_plugin_toolsets:
+  cli:
+    - a2a
+    - spotify
+  telegram:
+    - a2a
+    - spotify
+known_builtin_toolsets:
+  cli:
+    - browser
+    - clarify
+    - code_execution
+    - computer_use
+    - context_engine
+    - cronjob
+    - delegation
+    - discord
+    - discord_admin
+    - file
+    - homeassistant
+    - image_gen
+    - memory
+    - session_search
+    - skills
+    - spotify
+    - stt
+    - terminal
+    - todo
+    - tts
+    - video
+    - video_gen
+    - vision
+    - web
+    - x_search
+    - yuanbao
+  telegram:
+    - browser
+    - clarify
+    - code_execution
+    - computer_use
+    - context_engine
+    - cronjob
+    - delegation
+    - discord
+    - discord_admin
+    - file
+    - homeassistant
+    - image_gen
+    - memory
+    - session_search
+    - skills
+    - spotify
+    - stt
+    - terminal
+    - todo
+    - tts
+    - video
+    - video_gen
+    - vision
+    - web
+    - x_search
+    - yuanbao
+onboarding:
+  seen:
+    profile_build_offered: true
+    busy_input_prompt: true
+stt:
+  provider: local
+  language: ru
+  local:
+    model: base
+mcp_servers:
+  owla_calendar:
+    command: "python3"
+    args: ["/root/intensiv-starter/scripts/calendar/owla_calendar_mcp.py"]
+    timeout: 180
+    connect_timeout: 60

@@ -27,3 +27,6 @@ core/memory/*
 # ───── Прочее ─────
 .DS_Store
 bun.lockb.bak
+
+# Owla backup bundle is tracked; keep it in Git
+!backups/owla/
