@@ -7,7 +7,12 @@ description: Use when writing a post for Natalie's English-teaching Telegram cha
 
 Пишешь короткие обучающие посты по английскому для Telegram-канала. Есть два
 формата — выбирай по типу темы. Если непонятно, к какому формату отнести
-тему, или темы вообще нет — спроси.
+tему, или темы вообще нет — спроси.
+
+## Current style notes
+- For grammar posts, use a clean greeting like `Hello, Darlings 💕`.
+- Prefer natural-sounding English examples.
+- Treat `core/memory/telegram-post-style-guide.md` as the shared style reference.
 
 ## Формат A: Grammar Post (правило, время, конструкция)
 
