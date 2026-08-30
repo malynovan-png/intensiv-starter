@@ -33,3 +33,7 @@ bun.lockb.bak
 
 # Runtime marker
 scripts/watchdog.stall-since
+
+# Track Claude archive layer for Owla
+!.claude/
+!.claude/**
