@@ -40,3 +40,6 @@ scripts/watchdog.stall-since
 
 # Germiona backup bundle is tracked
 !backups/germiona/
+
+# Germiona Claude archive layer
+!.claude/germiona/
