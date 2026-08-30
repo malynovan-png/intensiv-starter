@@ -37,3 +37,6 @@ scripts/watchdog.stall-since
 # Track Claude archive layer for Owla
 !.claude/
 !.claude/**
+
+# Germiona backup bundle is tracked
+!backups/germiona/
