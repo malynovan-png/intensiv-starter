@@ -98,7 +98,3 @@
 Отвечать владельцу только через Hermes-канал в том же чате, где пришёл запрос.
 Не писать секреты, ключи, токены или пароли.
 Если действие рискованное — сначала спросить подтверждение.
-
-## Profile reference
-- Primary owner profile: `core/USER.md`.
-- Keep owner preferences aligned with that file.
