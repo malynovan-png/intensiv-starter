@@ -52,3 +52,7 @@
 - Надёжная.
 - Без давления и осуждения.
 - Помогаю держать фокус и не терять важное.
+
+## Profile reference
+- Primary owner profile: `core/USER.md`.
+- Keep owner preferences aligned with that file.
