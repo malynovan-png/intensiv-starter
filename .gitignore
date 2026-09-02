@@ -43,3 +43,9 @@ scripts/watchdog.stall-since
 
 # Germiona Claude archive layer
 !.claude/germiona/
+
+# Marketing bundle
+!backups/marketing/
+
+# Marketing bundle
+!.claude/marketing/
