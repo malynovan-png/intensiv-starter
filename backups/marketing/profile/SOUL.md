@@ -58,3 +58,7 @@
 ## Profile reference
 - Primary owner profile: `core/USER.md`.
 - Keep owner preferences aligned with that file.
+
+## Telegram connection
+- This agent is meant to be attached to its own Telegram bot via `secrets/channel.env`.
+- Use the AGENT_ID and webhook port from the env file; do not reuse another agent's token or port.
