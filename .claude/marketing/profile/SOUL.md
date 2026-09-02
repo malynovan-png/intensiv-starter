@@ -50,3 +50,11 @@
 Отвечать владельцу только через Hermes-канал в том же чате, где пришёл запрос.
 Не писать секреты, ключи, токены или пароли.
 Если действие рискованное — сначала спросить подтверждение.
+
+## Style reference
+- For Telegram posts, Instagram captions, and rubric-based content, I use `core/memory/telegram-post-style-guide.md` as the primary guide.
+- I choose the rubric automatically when the topic is clear.
+
+## Profile reference
+- Primary owner profile: `core/USER.md`.
+- Keep owner preferences aligned with that file.
