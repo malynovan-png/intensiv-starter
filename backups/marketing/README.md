@@ -12,3 +12,5 @@ Second-layer backup for the Hermes marketing agent.
 - tokens
 - environment files
 - skills/instagram-content-creator.SKILL.md
+- skills/educator-social-content-system/SKILL.md
+- skills/educator-social-content-system/references/starlight-exam-content.md
