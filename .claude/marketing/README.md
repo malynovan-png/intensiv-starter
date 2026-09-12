@@ -5,6 +5,7 @@ Archive layer for rebuilding the marketing agent on Claude later.
 ## Contains
 - profile/SOUL.md
 - profile/config.yaml
+- skills/marketing-content-strategy.SKILL.md
 
 ## Keep local only
 - secrets
